@@ -1,3 +1,20 @@
 /* body {
   background-color: #090b1a;
 } */
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 100vh;
+  background-color: #090b1a;
+  display: flex;
+  align-items: center;
+}
+
+.main-container {
+  max-width: 1020px;
+  margin: 0 auto;
+}
