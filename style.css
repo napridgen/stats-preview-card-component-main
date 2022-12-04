@@ -9,7 +9,7 @@
 
 body {
   min-width: 100vh;
-  background-color: #090b1a;
+  background-color: whitesmoke;
   display: flex;
   align-items: center;
 }
@@ -17,4 +17,12 @@ body {
 .main-container {
   max-width: 1020px;
   margin: 0 auto;
+}
+
+.second-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 2rem;
 }
