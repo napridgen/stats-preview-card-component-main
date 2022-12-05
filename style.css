@@ -85,3 +85,35 @@ body {
 .facts p {
   color: hsla(0, 0%, 100%, 0.6);
 }
+
+@media screen and (max-width: 425px) {
+  body {
+    text-align: center;
+  }
+
+  .container2 {
+    grid-template-columns: 1fr;
+  }
+
+  .image {
+    order: -1;
+  }
+
+  .content {
+    padding: 12% 8%;
+  }
+
+  .heading {
+    font-size: 23px;
+    line-height: 1.4;
+  }
+
+  .facts {
+    flex-direction: column;
+    padding-top: 30px;
+  }
+
+  .facts div {
+    margin-top: 20px;
+  }
+}
